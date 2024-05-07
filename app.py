@@ -21,8 +21,7 @@ import requests
 import xmltodict
 import json
 
-# api_key = st.text_input('key를 입력하세요: ')
-api_key = '2EA147E4-BEDA-3115-BBD0-8E09F3DD0FED'
+api_key = st.text_input('key를 입력하세요: ')
 #### pnu 수집
 poi = st.text_input('원하는 장소의 정확한 지번주소를 넣어주세요, ex) 경기도 시흥시 은행동 599-1, 경기도 시흥시 은행동 599-2:  ')
 li_poi = poi.split(', ')
